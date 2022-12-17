@@ -1,0 +1,168 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  font-weight: lighter;
+  color: #614124;
+  padding-top: 50px;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.375rem;  /*what i did here is as 1em is 16px so i needed for 70px.. then 70/16 and that is rem */
+}
+
+h2 {
+  font-size: 35px;
+  color: #614124;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+
+}
+
+h3 {
+  color: #850000;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+ font-size: 1.125rem; /*what i did here is as 1em is 16px so i needed for 70px.. then 70/16 and that is rem */
+}
+
+a {
+  color: #227C70;
+  font-family: 'Montserrat', sans-serif;
+  margin:10px 10px 0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+hr {
+  margin-top:30px;
+  border-style: dotted none none;
+  border-width: 10px;
+  width: 10%;
+  padding: 50px 30px 20px;
+  color:#C58940;
+}
+
+/*-------------- class selectors  ---------------- */
+
+.topcontainer {
+  /* height: 200px;
+  width: 200px;
+  /* border: solid 10px;
+  padding: 20px; */
+  background-color: #94B49F;
+  position: relative;
+  padding-top: 100px ;
+}
+
+.topcloud {
+  position: absolute;
+  top: 60px;
+  right: 350px;
+}
+
+.animalhii {
+  width: 10%;
+}
+
+.bottomcloud{
+  position: absolute;
+  left: 350px;
+  bottom: 400px;
+}
+
+.my-description {
+  width:60%;
+  margin: 0 auto 0 auto;
+  line-height: 3;
+  color: #2D033B;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  padding: 20px 30px 50px;
+  line-height: 2;
+  text-align: left;
+}
+
+.computerimg {
+  float: left;
+  margin-right: 20px;
+  height:250px;
+  width:250px;
+  border-radius: 50%
+}
+
+.chilliesimg {
+  float: right;
+  margin-left: 20px;
+  height:250px;
+  width:300px;
+  border-radius: 50%
+}
+
+.heading1 {
+  margin: 0 auto 0 auto;
+}
+
+.middle-container {
+  background-color: #CEE5D0;
+  padding:30px 40px 50px;
+  margin: 0;
+}
+
+.bottom-container {
+  margin:0;
+  background-color: #ECB390;
+  padding: 20px;
+
+}
+
+.mypic {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%
+}
+
+.btn {
+  background: #32785a;
+  background-image: -webkit-linear-gradient(top, #32785a, #2980b9);
+  background-image: -moz-linear-gradient(top, #32785a, #2980b9);
+  background-image: -ms-linear-gradient(top, #32785a, #2980b9);
+  background-image: -o-linear-gradient(top, #32785a, #2980b9);
+  background-image: linear-gradient(to bottom, #32785a, #2980b9);
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e87a3a;
+  border-radius: 30px;
+  color: #F2E5E5;
+  background-image: -webkit-linear-gradient(top, #e87a3a, #3b8047);
+  background-image: -moz-linear-gradient(top, #e87a3a, #3b8047);
+  background-image: -ms-linear-gradient(top, #e87a3a, #3b8047);
+  background-image: -o-linear-gradient(top, #e87a3a, #3b8047);
+  background-image: linear-gradient(to bottom, #e87a3a, #3b8047);
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  margin-bottom:0;
+  color: #2B3A55;
+}
